@@ -1,0 +1,114 @@
+*, *::before,*::after{
+    box-sizing: border-box;
+    font-family: font-family, sans-serif;
+    font-weight: normal;
+}
+
+
+
+body{
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(to right, #ca340e, #000000);
+}
+
+h1 {
+    
+    line-height: 1.3;
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    color: white;
+  }
+
+
+
+#container{
+border-radius:.5%;
+background-color: rgb(34, 37, 199);
+border: 1px solid; color:black;
+height: 400px;
+width: 650px;
+margin: auto;
+margin-top: 250px;
+text-align: center;
+
+  }
+
+p{
+font-family: font-family, sans-serif; 
+font-weight: normal;
+ font-size: 20px;
+}
+
+#bottomSection{
+display:flex;
+justify-content: center;
+padding: .5re,;
+
+border-radius: 1%;
+}
+
+#number{
+justify-content: center;
+padding: .88rem;
+margin-bottom: 20px;
+background-color:mediumaquamarine;
+border: transparent; width: fit-content; height: auto;
+margin: auto;
+
+}
+
+
+#image{
+    margin-top: 20px;
+    height: 40%;
+
+}
+
+#image1{
+    margin-top: 20px;
+    height: 40%;
+    
+    
+}
+
+#input{
+   
+ width: 100px;
+ margin: 25px auto;
+
+}
+#buttons{
+display: flex;
+justify-content: center;
+}
+
+#btnH{
+    border-color: transparent;
+    padding: 1rem;
+align-content: center;
+margin: auto;
+display: flex;
+}
+
+#btnL{
+    border-color: transparent;
+padding: 1rem;
+margin: auto;
+align-content: center;
+display: flex;
+
+
+} 
+
+.btn1:hover{
+    cursor: pointer;
+    background-color:yellowgreen;
+}
+
+.btn2:hover{
+    cursor: pointer;
+    background-color: tomato;
+    
+}
